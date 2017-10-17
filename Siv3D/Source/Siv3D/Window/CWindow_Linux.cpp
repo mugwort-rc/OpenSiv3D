@@ -12,7 +12,9 @@
 # include <Siv3D/Platform.hpp>
 # if defined(SIV3D_TARGET_LINUX)
 
+# include "../Siv3DEngine.hpp"
 # include "CWindow_Linux.hpp"
+# include "../System/ISystem.hpp"
 # include <Siv3D/System.hpp>
 
 namespace s3d
